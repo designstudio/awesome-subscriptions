@@ -1,0 +1,19 @@
+{
+  "id": "onedrive",
+  "name": "OneDrive",
+  "domain": "onedrive.live.com",
+  "category": "cloud-storage",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["ONEDRIVE", "MICROSOFT ONEDRIVE", "MICROSOFT STORAGE"],
+  "websiteUrl": "https://www.microsoft.com/pt-br/microsoft-365/onedrive/online-cloud-storage",
+  "managementUrl": "https://account.microsoft.com/services/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": "OneDrive storage may be included with a Microsoft 365 subscription.",
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.microsoft.com/pt-br/microsoft-365/onedrive/online-cloud-storage", "https://account.microsoft.com/services/"]
+  }
+}
