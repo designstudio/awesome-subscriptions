@@ -1,0 +1,19 @@
+{
+  "id": "apple-tv-plus",
+  "name": "Apple TV+",
+  "domain": "tv.apple.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["APPLE TV+", "APPLE TV PLUS", "APPLE.COM/BILL"],
+  "websiteUrl": "https://tv.apple.com/br/",
+  "managementUrl": "https://apps.apple.com/account/subscriptions",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": "Apple-billed subscriptions may appear under a generic Apple billing descriptor.",
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://tv.apple.com/br/", "https://support.apple.com/pt-br/118428"]
+  }
+}
