@@ -1,0 +1,19 @@
+{
+  "id": "canva",
+  "name": "Canva",
+  "domain": "canva.com",
+  "category": "creator-tools",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["CANVA", "CANVA PRO", "CANVA PTY LTD"],
+  "websiteUrl": "https://www.canva.com/pt_br/",
+  "managementUrl": "https://www.canva.com/settings/billing-and-plans",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.canva.com/pt_br/", "https://www.canva.com/pt_br/pricing/"]
+  }
+}
