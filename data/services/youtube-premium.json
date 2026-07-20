@@ -1,0 +1,19 @@
+{
+  "id": "youtube-premium",
+  "name": "YouTube Premium",
+  "domain": "youtube.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["YOUTUBE PREMIUM", "GOOGLE YOUTUBE"],
+  "websiteUrl": "https://www.youtube.com/premium",
+  "managementUrl": "https://www.youtube.com/paid_memberships",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.youtube.com/premium", "https://support.google.com/youtube/answer/6308278?hl=pt-BR"]
+  }
+}
