@@ -1,0 +1,19 @@
+{
+  "id": "netflix",
+  "name": "Netflix",
+  "domain": "netflix.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["NETFLIX.COM", "NETFLIX ENTRETENIMENTO"],
+  "websiteUrl": "https://www.netflix.com/",
+  "managementUrl": "https://www.netflix.com/account",
+  "cancellationUrl": "https://www.netflix.com/cancelplan",
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.netflix.com/", "https://help.netflix.com/pt/node/407"]
+  }
+}
