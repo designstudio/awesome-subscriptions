@@ -1,0 +1,19 @@
+{
+  "id": "crunchyroll",
+  "name": "Crunchyroll",
+  "domain": "crunchyroll.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["CRUNCHYROLL", "CRUNCHYROLL PREMIUM"],
+  "websiteUrl": "https://www.crunchyroll.com/pt-br/",
+  "managementUrl": "https://www.crunchyroll.com/account/membership",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.crunchyroll.com/pt-br/", "https://www.crunchyroll.com/premium"]
+  }
+}
