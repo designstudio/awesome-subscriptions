@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/designstudio/awesome-subscriptions/blob/main/schema/service.schema.json",
+  "title": "Awesome Subscriptions service",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "category",
+    "regions",
+    "billingCycles",
+    "aliases",
+    "websiteUrl",
+    "status",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "domain": {
+      "type": "string",
+      "pattern": "^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$"
+    },
+    "category": { "type": "string", "minLength": 2, "maxLength": 50 },
+    "regions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+    },
+    "billingCycles": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "weekly",
+          "monthly",
+          "quarterly",
+          "semiannual",
+          "annual",
+          "variable",
+          "unknown"
+        ]
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 160 }
+    },
+    "websiteUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "managementUrl": { "type": ["string", "null"], "format": "uri" },
+    "cancellationUrl": { "type": ["string", "null"], "format": "uri" },
+    "status": { "enum": ["active", "discontinued", "regional", "unknown"] },
+    "notes": { "type": ["string", "null"], "maxLength": 1000 },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "verifiedAt", "sources"],
+      "properties": {
+        "level": { "enum": ["official", "editorial", "community"] },
+        "verifiedAt": { "type": "string", "format": "date" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  }
+}
