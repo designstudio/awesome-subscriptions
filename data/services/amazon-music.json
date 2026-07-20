@@ -1,0 +1,19 @@
+{
+  "id": "amazon-music",
+  "name": "Amazon Music",
+  "domain": "music.amazon.com.br",
+  "category": "music",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["AMAZON MUSIC", "AMAZON MUSIC UNLIMITED", "AMZN MUSIC"],
+  "websiteUrl": "https://music.amazon.com.br/",
+  "managementUrl": "https://www.amazon.com.br/hz5/yourmembershipsandsubscriptions",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://music.amazon.com.br/", "https://www.amazon.com.br/music/unlimited"]
+  }
+}
