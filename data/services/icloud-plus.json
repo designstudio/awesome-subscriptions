@@ -1,0 +1,19 @@
+{
+  "id": "icloud-plus",
+  "name": "iCloud+",
+  "domain": "apple.com",
+  "category": "cloud-storage",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["ICLOUD", "ICLOUD+", "APPLE.COM/BILL"],
+  "websiteUrl": "https://www.apple.com/br/icloud/",
+  "managementUrl": "https://account.apple.com/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": "Apple billing descriptors may be shared with other Apple services.",
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.apple.com/br/icloud/", "https://support.apple.com/pt-br/108318"]
+  }
+}
