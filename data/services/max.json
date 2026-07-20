@@ -1,0 +1,19 @@
+{
+  "id": "max",
+  "name": "Max",
+  "domain": "max.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["MAX", "HBO MAX"],
+  "websiteUrl": "https://www.max.com/br/pt",
+  "managementUrl": "https://www.max.com/subscription",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://help.max.com/br/Answer/Detail/000002544"]
+  }
+}
