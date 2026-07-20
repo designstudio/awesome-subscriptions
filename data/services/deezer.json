@@ -1,0 +1,19 @@
+{
+  "id": "deezer",
+  "name": "Deezer",
+  "domain": "deezer.com",
+  "category": "music",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["DEEZER", "DEEZER PREMIUM", "DEEZER.COM"],
+  "websiteUrl": "https://www.deezer.com/br/",
+  "managementUrl": "https://www.deezer.com/account/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.deezer.com/br/", "https://support.deezer.com/"]
+  }
+}
