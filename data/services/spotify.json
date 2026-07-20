@@ -1,0 +1,19 @@
+{
+  "id": "spotify",
+  "name": "Spotify",
+  "domain": "spotify.com",
+  "category": "music",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["SPOTIFY", "SPOTIFY AB"],
+  "websiteUrl": "https://www.spotify.com/br-pt/premium/",
+  "managementUrl": "https://www.spotify.com/account/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.spotify.com/br-pt/premium/"]
+  }
+}
