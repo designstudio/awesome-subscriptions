@@ -1,0 +1,19 @@
+{
+  "id": "dropbox",
+  "name": "Dropbox",
+  "domain": "dropbox.com",
+  "category": "cloud-storage",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["DROPBOX", "DROPBOX INC"],
+  "websiteUrl": "https://www.dropbox.com/plans",
+  "managementUrl": "https://www.dropbox.com/account/plan",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.dropbox.com/plans", "https://help.dropbox.com/pt-br/plans/cancel-mobile"]
+  }
+}
