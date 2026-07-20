@@ -1,0 +1,19 @@
+{
+  "id": "xbox-game-pass",
+  "name": "Xbox Game Pass",
+  "domain": "xbox.com",
+  "category": "gaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["XBOX GAME PASS", "MICROSOFT XBOX"],
+  "websiteUrl": "https://www.xbox.com/pt-BR/xbox-game-pass",
+  "managementUrl": "https://account.microsoft.com/services/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.xbox.com/pt-BR/xbox-game-pass", "https://support.xbox.com/pt-BR/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription"]
+  }
+}
