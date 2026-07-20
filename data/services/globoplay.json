@@ -1,0 +1,19 @@
+{
+  "id": "globoplay",
+  "name": "Globoplay",
+  "domain": "globoplay.globo.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["GLOBOPLAY", "GLOBO PLAY", "GLOBO COMUNICACAO"],
+  "websiteUrl": "https://globoplay.globo.com/",
+  "managementUrl": "https://minhaconta.globo.com/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://globoplay.globo.com/", "https://globoplay.globo.com/ajuda/"]
+  }
+}
