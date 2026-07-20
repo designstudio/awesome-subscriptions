@@ -1,0 +1,19 @@
+{
+  "id": "amazon-prime",
+  "name": "Amazon Prime",
+  "domain": "amazon.com.br",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["AMAZON PRIME", "PRIME VIDEO", "AMZN PRIME BR"],
+  "websiteUrl": "https://www.amazon.com.br/prime",
+  "managementUrl": "https://www.amazon.com.br/hp/wlp/pipeline/memberships",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": "Amazon Prime bundles Prime Video with other Amazon benefits in Brazil.",
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.amazon.com.br/prime", "https://www.primevideo.com/help?language=pt_br"]
+  }
+}
