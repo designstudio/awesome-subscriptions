@@ -1,0 +1,19 @@
+{
+  "id": "apple-music",
+  "name": "Apple Music",
+  "domain": "apple.com",
+  "category": "music",
+  "regions": ["BR"],
+  "billingCycles": ["monthly"],
+  "aliases": ["APPLE MUSIC", "APPLE.COM/BILL"],
+  "websiteUrl": "https://www.apple.com/br/apple-music/",
+  "managementUrl": "https://account.apple.com/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": "Apple billing descriptors may be shared with other Apple services.",
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.apple.com/br/apple-music/", "https://support.apple.com/pt-br/118428"]
+  }
+}
