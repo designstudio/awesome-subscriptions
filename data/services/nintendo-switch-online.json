@@ -1,0 +1,19 @@
+{
+  "id": "nintendo-switch-online",
+  "name": "Nintendo Switch Online",
+  "domain": "nintendo.com",
+  "category": "gaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "quarterly", "annual"],
+  "aliases": ["NINTENDO SWITCH ONLINE", "NINTENDO"],
+  "websiteUrl": "https://www.nintendo.com/pt-br/switch/online/",
+  "managementUrl": "https://accounts.nintendo.com/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.nintendo.com/pt-br/switch/online/", "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196"]
+  }
+}
