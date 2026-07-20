@@ -1,0 +1,19 @@
+{
+  "id": "paramount-plus",
+  "name": "Paramount+",
+  "domain": "paramountplus.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["PARAMOUNT PLUS", "PARAMOUNT+", "PARAMOUNTPLUS"],
+  "websiteUrl": "https://www.paramountplus.com/br/",
+  "managementUrl": "https://www.paramountplus.com/br/account/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.paramountplus.com/br/", "https://www.paramountplus.com/br/account/signup/pickplan/"]
+  }
+}
