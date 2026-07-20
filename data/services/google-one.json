@@ -1,0 +1,19 @@
+{
+  "id": "google-one",
+  "name": "Google One",
+  "domain": "one.google.com",
+  "category": "cloud-storage",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["GOOGLE ONE", "GOOGLE STORAGE"],
+  "websiteUrl": "https://one.google.com/about/plans?hl=pt_BR",
+  "managementUrl": "https://one.google.com/settings",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://one.google.com/about/plans?hl=pt_BR", "https://support.google.com/googleone/answer/9056360?hl=pt-BR"]
+  }
+}
