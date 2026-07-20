@@ -1,0 +1,19 @@
+{
+  "id": "disney-plus",
+  "name": "Disney+",
+  "domain": "disneyplus.com",
+  "category": "streaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["DISNEY PLUS", "DISNEY+"],
+  "websiteUrl": "https://www.disneyplus.com/pt-br",
+  "managementUrl": "https://www.disneyplus.com/account",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.disneyplus.com/pt-br"]
+  }
+}
