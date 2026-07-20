@@ -1,0 +1,19 @@
+{
+  "id": "microsoft-365",
+  "name": "Microsoft 365",
+  "domain": "microsoft.com",
+  "category": "productivity",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "annual"],
+  "aliases": ["MICROSOFT 365", "M365", "OFFICE 365", "MICROSOFT*SUBSCRIPTION"],
+  "websiteUrl": "https://www.microsoft.com/pt-br/microsoft-365",
+  "managementUrl": "https://account.microsoft.com/services/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.microsoft.com/pt-br/microsoft-365", "https://account.microsoft.com/services/"]
+  }
+}
