@@ -1,0 +1,19 @@
+{
+  "id": "playstation-plus",
+  "name": "PlayStation Plus",
+  "domain": "playstation.com",
+  "category": "gaming",
+  "regions": ["BR"],
+  "billingCycles": ["monthly", "quarterly", "annual"],
+  "aliases": ["PLAYSTATION PLUS", "PS PLUS", "SONY PLAYSTATION"],
+  "websiteUrl": "https://www.playstation.com/pt-br/ps-plus/",
+  "managementUrl": "https://www.playstation.com/acct/management/",
+  "cancellationUrl": null,
+  "status": "active",
+  "notes": null,
+  "verification": {
+    "level": "official",
+    "verifiedAt": "2026-07-20",
+    "sources": ["https://www.playstation.com/pt-br/ps-plus/", "https://www.playstation.com/pt-br/support/subscriptions/cancel-playstation-plus/"]
+  }
+}
