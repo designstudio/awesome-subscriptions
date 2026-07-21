@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/designstudio/awesome-subscriptions/blob/main/schema/candidate.schema.json",
+  "title": "Awesome Subscriptions catalog candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "domain", "category", "targetRegions", "reviewStatus"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "domain": { "type": "string", "minLength": 3, "maxLength": 253 },
+    "category": { "type": "string", "minLength": 2, "maxLength": 50 },
+    "targetRegions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Z]{2}|GLOBAL$" }
+    },
+    "reviewStatus": { "enum": ["candidate", "researching", "verified", "rejected"] },
+    "notes": { "type": ["string", "null"], "maxLength": 500 }
+  }
+}
