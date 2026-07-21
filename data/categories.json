@@ -14,12 +14,14 @@
   { "id": "education", "name": "Education" },
   { "id": "news", "name": "News & Publications" },
   { "id": "insurance", "name": "Insurance" },
+  { "id": "finance", "name": "Finance" },
   { "id": "hosting", "name": "Hosting" },
   { "id": "domains", "name": "Domains" },
   { "id": "security", "name": "Security" },
   { "id": "creator-tools", "name": "Creator Tools" },
   { "id": "delivery", "name": "Delivery" },
   { "id": "mobility", "name": "Mobility" },
+  { "id": "social", "name": "Social" },
   { "id": "memberships", "name": "Memberships" },
   { "id": "other", "name": "Other" }
 ]
